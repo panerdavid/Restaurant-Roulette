@@ -1,0 +1,6 @@
+framework module Pods_decision_decisionUITests {
+  umbrella header "Pods-decision-decisionUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

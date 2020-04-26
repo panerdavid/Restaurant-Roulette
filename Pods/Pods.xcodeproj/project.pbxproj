@@ -1,0 +1,1336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		011046E59401A0D17E997D493021B4D3 /* YLPClient+PhoneSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 8579FC544CF9732697977076673520EE /* YLPClient+PhoneSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0164DBEC525F7BA1295D707970471C6D /* YLPBusiness.h in Headers */ = {isa = PBXBuildFile; fileRef = 31998199212B224C18EB357DFA4786BD /* YLPBusiness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01F83BDA37A1B54686FBAE19030D9D0E /* SpinWheelControlDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D113C6F53D667BA69F82C86105ADC9F /* SpinWheelControlDataSource.swift */; };
+		0BB5E73F2D682E4D3DEB8C7A931943B4 /* YelpAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 646D781F7D42D9715E46E4549FA1615D /* YelpAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1BE65C7C0E16C22A1DAB790DE843F7 /* YLPCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDABD7B4C287AE7B19F4F1AA43D2A82 /* YLPCoordinate.m */; };
+		0FF84649520EE2DD3DA8AB820B2ECE5D /* YLPBusinessReviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E466F312778F0A0BF1E9A336A385B4 /* YLPBusinessReviews.m */; };
+		114E82F42E86C9B0B5992E1C01FDAB4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		1770F178C506D2BBDAD1DABC329DFBA8 /* YLPLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8953D83B2240B7E44394ECE0A7963D /* YLPLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19206A56BC6A81FA0FCD983A8FBEEFFE /* YLPClient+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EF9DF24E96F52A9CC193FF124A1776B /* YLPClient+Search.m */; };
+		2012E9D8CEA75686ACA58716CF99B0BB /* SpinWheelWedgeShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3330F1F5E8E1732DF6955F1F6FC5F19 /* SpinWheelWedgeShape.swift */; };
+		238BB650ECAA4AB424600CA72A627444 /* YLPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FC74F9F1B56A208B27EA8E7F7E5100 /* YLPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25109A04A427ED02947E080170DE147B /* YLPSortType.h in Headers */ = {isa = PBXBuildFile; fileRef = A407BF12D59F25000289498D91CDE972 /* YLPSortType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		278AB186FE27B90FE6977850E8B4050A /* YelpAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8D181B632728253CCB72EB112CB76B /* YelpAPI-dummy.m */; };
+		27AAF49D91F8C1B53F71F8E9FC9C470F /* YLPBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 886FFC6E0DD564DB84791C3B57563A94 /* YLPBusiness.m */; };
+		284774A6287BE95F2B0F10EA9E2B0B5F /* YLPQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = B64904C0E1D5694C8199C7BBF01195AC /* YLPQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE909BCCB6BDD9DBB50F008815E27E4 /* SpinWheelControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73407AFA816134755E3F32A51F8303 /* SpinWheelControl-dummy.m */; };
+		31CDDC5AC349BD9E522D5EAB0DF3ADCF /* YLPQueryPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = E58F5786EB482EABDD5E9BD2AE64E42A /* YLPQueryPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		33C8B7A8BB42BAE8285690561E08BAD7 /* YLPSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B23762D7C97F71BF947C6872F3BF3F /* YLPSearch.m */; };
+		4A46359C907CED8B5298139124C6702A /* Pods-decisionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F3ABBC924D7CB1C0BC63E70E740A3C /* Pods-decisionTests-dummy.m */; };
+		4B219B88F7F89784710381A573C631B5 /* YLPClient+Business.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDC683559C9B9868B3B36E84C307B0C /* YLPClient+Business.m */; };
+		5A542211010B4A441026D1B2745D8875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5BCDF223BF0B887C816145B40D504383 /* Pods-decision-decisionUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC911EBB4DEAFE3E51C760B2E27B305 /* Pods-decision-decisionUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6006E9EC8EE7A01BFB083D9695685B98 /* YLPResponsePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D31E6C1BFF440435F5460DD6EEF40E69 /* YLPResponsePrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		604FE407CEFB592DD2842FAA0D828A9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		6B244D06AF5DF7088463BA62DE2F8EDF /* Degrees+MathMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F65A4A692CB7ABA7A8B712A6653E401 /* Degrees+MathMethods.swift */; };
+		6B2665F14797675A8FF0D57D14761BD6 /* YLPReview.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AD64B147E8275E0CF0E3AEFC5222CED /* YLPReview.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D734A52BBB753D49CFBFA5706235523 /* YLPCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB2D124E1035A155788BDA0F51B5236 /* YLPCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		715B08E09DB4B085EF8DD5FA58DF63A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		7CC814ED630BDF004DE275FDF811D316 /* YLPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA165E76A98AD20F022FA1771D0145 /* YLPClient.m */; };
+		8195E762BB1FB1AB4AC42AACEA4AE367 /* Pods-decision-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3111AA5F7640D42B88F7BC872BF2C1 /* Pods-decision-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82E5B4B8C80E29EA241F8F0769EF5F6C /* YelpAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE356ED85B158F4D5C7E19E6F0F1552 /* YelpAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8518BFEE35FC30A0B290F20E2072410E /* SpinWheelControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA2FE3252368EAD90F9F79B102A36A61 /* SpinWheelControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855002CCE2606EDA5F9332CFBD5AC600 /* YLPCoordinate.h in Headers */ = {isa = PBXBuildFile; fileRef = 364B1752FF6343FB4A000E7E7756E0F8 /* YLPCoordinate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C10FAFA430E90F7C1199CABD45D0AFD /* YLPClientPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F357F299AE7E1918C2D6DC328EB432A7 /* YLPClientPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8D982335D1855A5843871C15BF8EA153 /* SpinWheelWedge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF4E6B20B1E0CE07EEFC4CE74AC0F03 /* SpinWheelWedge.swift */; };
+		976BC9AA59F6B19F133B826A99099CC6 /* YLPClient+Reviews.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFF35148183ED0CD14B03C79FF9E83F /* YLPClient+Reviews.m */; };
+		9794AFF20306D60C0C881651DAF3E870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A0E7171E10042FE2792166BE717F027B /* SpinWheelControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3169E999611BA96D4359140A533EB82B /* SpinWheelControl.swift */; };
+		A362170D62F5CF9F5E55D062C38A1886 /* SpinWheelControl.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF0539736561F62AA22C714F8EA1136 /* SpinWheelControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A440422ADA26F472C87DE85354573FAA /* YLPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDDC6664F19309D9F946031C601DDA3 /* YLPCategory.m */; };
+		AB95490DDD0A3B3B2CAF4C5F10D25890 /* YLPClient+Business.h in Headers */ = {isa = PBXBuildFile; fileRef = 396CDF41F166E2D8EC26AEB5A31AD07D /* YLPClient+Business.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB6F75A131A62C399B64E281DDC7D3C /* NSDictionary+YLPUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5645040D762429FFD525C65BF2986D2B /* NSDictionary+YLPUtils.m */; };
+		B09C5E549954CB3C77DBEF87DBA590BD /* YLPLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B34F2802517DA6435805F4CF2996C631 /* YLPLocation.m */; };
+		BF9977DF2F92AA34695BE47186309EE9 /* Pods-decision-decisionUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1773C56A256600A03E83C100C03729 /* Pods-decision-decisionUITests-dummy.m */; };
+		C03255CD6CF04B2E9B660D4433814105 /* YLPClient+Search.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8E2CA7DC533460630AFB6930D57AAA /* YLPClient+Search.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C406DAB3BECE80FD31E08FE24B3EB5D4 /* YLPReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4CA499DC6814A69C986A674E9F1494 /* YLPReview.m */; };
+		C9E344AF0A8BFD8ECF7A9997FF5499BB /* Pods-decision-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4C0311B47034409285422188A33C54 /* Pods-decision-dummy.m */; };
+		D1D2E9A21002BA3C2F8982F0A067D9FC /* SpinWheelControlDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183D1CD6C4548018A7F7D912A058C325 /* SpinWheelControlDelegate.swift */; };
+		D5CC8A7AF259C995ACB5B7511A4F8035 /* YLPUser.h in Headers */ = {isa = PBXBuildFile; fileRef = E878C6102AC251C9C24705963F96F84E /* YLPUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9F9EF36C376752B1F42DD2074B6E6FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E0100ECFD56F96402F9AE10D6FD04005 /* YLPSearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0661520E38D9EB758CBD6F591B34C281 /* YLPSearch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E147B83E9A2CAC76EA7942543BF2A0B3 /* YLPBusinessReviews.h in Headers */ = {isa = PBXBuildFile; fileRef = D07384FA638B5B1E2A52F19A36685739 /* YLPBusinessReviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4CFEBAB5989F3D052AC58AFF7A98C72 /* YLPClient+Reviews.h in Headers */ = {isa = PBXBuildFile; fileRef = 94806AC7D97FC7FEEB3DD04C25C184E9 /* YLPClient+Reviews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9508A2CD4AA1FD02C7555347DAA1980 /* YLPQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C123BE8764DEFC50EC6D53E511C5884 /* YLPQuery.m */; };
+		EB3263F5FBA5D99014FD653518681556 /* SpinWheelWedgeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECDBEF9E7F4BC85E8338FA3BBC0040B /* SpinWheelWedgeLabel.swift */; };
+		F617A147951A581C8137902A8BF5AD7B /* YLPClient+PhoneSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700D0D60A9A8B7521A81599FEA55A06 /* YLPClient+PhoneSearch.m */; };
+		FC7DFC3A0C6A9ED3AC8B6D8B991BDD42 /* YLPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DBCC6C382A2519F0EF52E90F9DEE37 /* YLPUser.m */; };
+		FE740D53A3BE2035670A5B49B2C77552 /* Pods-decisionTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6718D1DF916770CA450C3C0A2A6691F7 /* Pods-decisionTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		599FA7EF44D7088A8BFB882A1CDC455C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053EBA9D3B0D88FBEAC44573A8887CF2;
+			remoteInfo = YelpAPI;
+		};
+		72A272C3E8130BBF5EBD3518FB97079F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFC4EC67B03B3995AD1C6E1D9EB8DA17;
+			remoteInfo = "Pods-decision";
+		};
+		7CCA588F2AB760F2658EF242B47A3C5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD84FAAB6802581D257FEA9944CF14B;
+			remoteInfo = SpinWheelControl;
+		};
+		7E8C21022438AFE3028A5E42B8C6CC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053EBA9D3B0D88FBEAC44573A8887CF2;
+			remoteInfo = YelpAPI;
+		};
+		89EEBCDF8293DF86BDAB8A379C469769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD84FAAB6802581D257FEA9944CF14B;
+			remoteInfo = SpinWheelControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00678D95E0B781C50FCCF168127024D1 /* SpinWheelControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinWheelControl.debug.xcconfig; sourceTree = "<group>"; };
+		0661520E38D9EB758CBD6F591B34C281 /* YLPSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSearch.h; path = Classes/Response/YLPSearch.h; sourceTree = "<group>"; };
+		0E9FB6C2A9F6BC6D1D1FC56ABCD93070 /* Pods_decisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EF9DF24E96F52A9CC193FF124A1776B /* YLPClient+Search.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Search.m"; path = "Classes/Client/YLPClient+Search.m"; sourceTree = "<group>"; };
+		0F65A4A692CB7ABA7A8B712A6653E401 /* Degrees+MathMethods.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Degrees+MathMethods.swift"; path = "SpinWheelControl/Degrees+MathMethods.swift"; sourceTree = "<group>"; };
+		117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpinWheelControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B23762D7C97F71BF947C6872F3BF3F /* YLPSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPSearch.m; path = Classes/Response/YLPSearch.m; sourceTree = "<group>"; };
+		1700D0D60A9A8B7521A81599FEA55A06 /* YLPClient+PhoneSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+PhoneSearch.m"; path = "Classes/Client/YLPClient+PhoneSearch.m"; sourceTree = "<group>"; };
+		183D1CD6C4548018A7F7D912A058C325 /* SpinWheelControlDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControlDelegate.swift; path = SpinWheelControl/SpinWheelControlDelegate.swift; sourceTree = "<group>"; };
+		1CF4E6B20B1E0CE07EEFC4CE74AC0F03 /* SpinWheelWedge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedge.swift; path = SpinWheelControl/SpinWheelWedge.swift; sourceTree = "<group>"; };
+		1D8CA8E02E8F2170A27C4F8C799B29B5 /* Pods-decision-decisionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decision-decisionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		225E1F35C9F15EF077044347E3205724 /* Pods-decision-decisionUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-decision-decisionUITests.modulemap"; sourceTree = "<group>"; };
+		25E466F312778F0A0BF1E9A336A385B4 /* YLPBusinessReviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusinessReviews.m; path = Classes/Response/YLPBusinessReviews.m; sourceTree = "<group>"; };
+		2BDC683559C9B9868B3B36E84C307B0C /* YLPClient+Business.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Business.m"; path = "Classes/Client/YLPClient+Business.m"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3169E999611BA96D4359140A533EB82B /* SpinWheelControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControl.swift; path = SpinWheelControl/SpinWheelControl.swift; sourceTree = "<group>"; };
+		31998199212B224C18EB357DFA4786BD /* YLPBusiness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusiness.h; path = Classes/Response/YLPBusiness.h; sourceTree = "<group>"; };
+		333154D136B428D5B35E32702E05A01C /* Pods-decision-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decision-Info.plist"; sourceTree = "<group>"; };
+		344CAA5100D83385B23B45F462FCC2D0 /* Pods-decisionTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decisionTests-Info.plist"; sourceTree = "<group>"; };
+		364B1752FF6343FB4A000E7E7756E0F8 /* YLPCoordinate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCoordinate.h; path = Classes/Common/YLPCoordinate.h; sourceTree = "<group>"; };
+		396CDF41F166E2D8EC26AEB5A31AD07D /* YLPClient+Business.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Business.h"; path = "Classes/Client/YLPClient+Business.h"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		466BFC30DBD91D79B6C7A79C51995C6A /* SpinWheelControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinWheelControl-prefix.pch"; sourceTree = "<group>"; };
+		47B584327A7EF43CE08EB3BBB45B74AB /* Pods-decision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decision.release.xcconfig"; sourceTree = "<group>"; };
+		50833FA51FF39E8C4088834958FA3B4F /* YelpAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YelpAPI.release.xcconfig; sourceTree = "<group>"; };
+		52DBCC6C382A2519F0EF52E90F9DEE37 /* YLPUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPUser.m; path = Classes/Response/YLPUser.m; sourceTree = "<group>"; };
+		5645040D762429FFD525C65BF2986D2B /* NSDictionary+YLPUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YLPUtils.m"; path = "Classes/Response/NSDictionary+YLPUtils.m"; sourceTree = "<group>"; };
+		58B59A01CB71771C2F43D0DDF07B6A27 /* YelpAPI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YelpAPI-Info.plist"; sourceTree = "<group>"; };
+		5A8953D83B2240B7E44394ECE0A7963D /* YLPLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPLocation.h; path = Classes/Response/YLPLocation.h; sourceTree = "<group>"; };
+		5AD64B147E8275E0CF0E3AEFC5222CED /* YLPReview.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPReview.h; path = Classes/Response/YLPReview.h; sourceTree = "<group>"; };
+		5B74915CF54CB11CF06EFF51D5CF48A3 /* Pods-decisionTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-decisionTests.modulemap"; sourceTree = "<group>"; };
+		5B8E2CA7DC533460630AFB6930D57AAA /* YLPClient+Search.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Search.h"; path = "Classes/Client/YLPClient+Search.h"; sourceTree = "<group>"; };
+		5C4CA499DC6814A69C986A674E9F1494 /* YLPReview.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPReview.m; path = Classes/Response/YLPReview.m; sourceTree = "<group>"; };
+		5F8D181B632728253CCB72EB112CB76B /* YelpAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YelpAPI-dummy.m"; sourceTree = "<group>"; };
+		60459AC837038BC9FB46A789E4EA7F78 /* YelpAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YelpAPI.debug.xcconfig; sourceTree = "<group>"; };
+		646D781F7D42D9715E46E4549FA1615D /* YelpAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YelpAPI.h; path = Classes/YelpAPI.h; sourceTree = "<group>"; };
+		6718D1DF916770CA450C3C0A2A6691F7 /* Pods-decisionTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-decisionTests-umbrella.h"; sourceTree = "<group>"; };
+		6D1773C56A256600A03E83C100C03729 /* Pods-decision-decisionUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-decision-decisionUITests-dummy.m"; sourceTree = "<group>"; };
+		759435B0AAF2926290A2FEFA87B1A3C7 /* Pods-decisionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-decisionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		791184884050C195CA3510EF8F4C0233 /* Pods-decision.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-decision.modulemap"; sourceTree = "<group>"; };
+		7BE356ED85B158F4D5C7E19E6F0F1552 /* YelpAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-umbrella.h"; sourceTree = "<group>"; };
+		7D113C6F53D667BA69F82C86105ADC9F /* SpinWheelControlDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelControlDataSource.swift; path = SpinWheelControl/SpinWheelControlDataSource.swift; sourceTree = "<group>"; };
+		8579FC544CF9732697977076673520EE /* YLPClient+PhoneSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+PhoneSearch.h"; path = "Classes/Client/YLPClient+PhoneSearch.h"; sourceTree = "<group>"; };
+		886FFC6E0DD564DB84791C3B57563A94 /* YLPBusiness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPBusiness.m; path = Classes/Response/YLPBusiness.m; sourceTree = "<group>"; };
+		897F21EA87D720778FD31BEE8CDEC361 /* YelpAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YelpAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF1C77B9F849EB26963ACC262DC61E3 /* SpinWheelControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpinWheelControl-Info.plist"; sourceTree = "<group>"; };
+		8BF60029E081AC520830C731AF6FFBE0 /* Pods-decisionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decisionTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8DDDC6664F19309D9F946031C601DDA3 /* YLPCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCategory.m; path = Classes/Response/YLPCategory.m; sourceTree = "<group>"; };
+		8ECDBEF9E7F4BC85E8338FA3BBC0040B /* SpinWheelWedgeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedgeLabel.swift; path = SpinWheelControl/SpinWheelWedgeLabel.swift; sourceTree = "<group>"; };
+		8F2AC106379CDE8EE804EAA7263144F9 /* Pods-decisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94806AC7D97FC7FEEB3DD04C25C184E9 /* YLPClient+Reviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YLPClient+Reviews.h"; path = "Classes/Client/YLPClient+Reviews.h"; sourceTree = "<group>"; };
+		9B3111AA5F7640D42B88F7BC872BF2C1 /* Pods-decision-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-decision-umbrella.h"; sourceTree = "<group>"; };
+		9B450B760A21A718EA5FB141B8DD1A82 /* Pods_decision_decisionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decision_decisionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFF35148183ED0CD14B03C79FF9E83F /* YLPClient+Reviews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "YLPClient+Reviews.m"; path = "Classes/Client/YLPClient+Reviews.m"; sourceTree = "<group>"; };
+		9C123BE8764DEFC50EC6D53E511C5884 /* YLPQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPQuery.m; path = Classes/Request/YLPQuery.m; sourceTree = "<group>"; };
+		9D401E9A35F5EAC5A1B16DADD54FF053 /* Pods-decision-decisionUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-decision-decisionUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0CB2E5B1B73A1D13ECAA6E0519C404 /* Pods-decision-decisionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decision-decisionUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A407BF12D59F25000289498D91CDE972 /* YLPSortType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPSortType.h; path = Classes/Request/YLPSortType.h; sourceTree = "<group>"; };
+		A7808C9F9EC11605219ECE9ADEEF2600 /* YelpAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YelpAPI-prefix.pch"; sourceTree = "<group>"; };
+		AC42FEB8AE3B22A333BCDC9862DEB8C5 /* Pods_decision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_decision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFED8F5B39D9327332B01E0BE3C0D6EB /* Pods-decision-decisionUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decision-decisionUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B34F2802517DA6435805F4CF2996C631 /* YLPLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPLocation.m; path = Classes/Response/YLPLocation.m; sourceTree = "<group>"; };
+		B64904C0E1D5694C8199C7BBF01195AC /* YLPQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQuery.h; path = Classes/Request/YLPQuery.h; sourceTree = "<group>"; };
+		B6F3ABBC924D7CB1C0BC63E70E740A3C /* Pods-decisionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-decisionTests-dummy.m"; sourceTree = "<group>"; };
+		BA2FE3252368EAD90F9F79B102A36A61 /* SpinWheelControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpinWheelControl-umbrella.h"; sourceTree = "<group>"; };
+		BAC911EBB4DEAFE3E51C760B2E27B305 /* Pods-decision-decisionUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-decision-decisionUITests-umbrella.h"; sourceTree = "<group>"; };
+		BC4C0311B47034409285422188A33C54 /* Pods-decision-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-decision-dummy.m"; sourceTree = "<group>"; };
+		C5F87A1AF3D0B94F0ADCC99662338FCE /* SpinWheelControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpinWheelControl.release.xcconfig; sourceTree = "<group>"; };
+		CCB2D124E1035A155788BDA0F51B5236 /* YLPCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPCategory.h; path = Classes/Response/YLPCategory.h; sourceTree = "<group>"; };
+		CCB83B6E871509E5F3CC00DC83EA2F44 /* Pods-decision-decisionUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decision-decisionUITests-Info.plist"; sourceTree = "<group>"; };
+		CE73407AFA816134755E3F32A51F8303 /* SpinWheelControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpinWheelControl-dummy.m"; sourceTree = "<group>"; };
+		D07384FA638B5B1E2A52F19A36685739 /* YLPBusinessReviews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPBusinessReviews.h; path = Classes/Response/YLPBusinessReviews.h; sourceTree = "<group>"; };
+		D12A27E5C7BA9D67249129C0E9F85E6A /* SpinWheelControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpinWheelControl.modulemap; sourceTree = "<group>"; };
+		D31E6C1BFF440435F5460DD6EEF40E69 /* YLPResponsePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPResponsePrivate.h; path = Classes/Response/YLPResponsePrivate.h; sourceTree = "<group>"; };
+		D4FC74F9F1B56A208B27EA8E7F7E5100 /* YLPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClient.h; path = Classes/Client/YLPClient.h; sourceTree = "<group>"; };
+		D7E2CB70F08F5799BDAB295203BEA835 /* Pods-decision-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-decision-frameworks.sh"; sourceTree = "<group>"; };
+		DEEA165E76A98AD20F022FA1771D0145 /* YLPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPClient.m; path = Classes/Client/YLPClient.m; sourceTree = "<group>"; };
+		E1203261CED98B1D066DC0B36AB478B7 /* Pods-decision-decisionUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-decision-decisionUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E58F5786EB482EABDD5E9BD2AE64E42A /* YLPQueryPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPQueryPrivate.h; path = Classes/Request/YLPQueryPrivate.h; sourceTree = "<group>"; };
+		E675BB4D73C8072BFE9C45E8A2069F0A /* Pods-decisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decisionTests.release.xcconfig"; sourceTree = "<group>"; };
+		E878C6102AC251C9C24705963F96F84E /* YLPUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPUser.h; path = Classes/Response/YLPUser.h; sourceTree = "<group>"; };
+		EA1A82E05373E4115E4DAC3CAF6ED469 /* Pods-decision-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-decision-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECF0539736561F62AA22C714F8EA1136 /* SpinWheelControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpinWheelControl.h; path = SpinWheelControl/SpinWheelControl.h; sourceTree = "<group>"; };
+		F20800457568AD58B3E966E171D692AF /* Pods-decision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-decision.debug.xcconfig"; sourceTree = "<group>"; };
+		F3330F1F5E8E1732DF6955F1F6FC5F19 /* SpinWheelWedgeShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinWheelWedgeShape.swift; path = SpinWheelControl/SpinWheelWedgeShape.swift; sourceTree = "<group>"; };
+		F357F299AE7E1918C2D6DC328EB432A7 /* YLPClientPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLPClientPrivate.h; path = Classes/Client/YLPClientPrivate.h; sourceTree = "<group>"; };
+		F530B0E6FEA7A3052F6DE6053B9D8355 /* YelpAPI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YelpAPI.modulemap; sourceTree = "<group>"; };
+		F5F4E36C20BFA2A82BA1EB1EF773672F /* Pods-decision-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-decision-acknowledgements.plist"; sourceTree = "<group>"; };
+		FCDABD7B4C287AE7B19F4F1AA43D2A82 /* YLPCoordinate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLPCoordinate.m; path = Classes/Common/YLPCoordinate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C95BD8E29F6117F3B36B2A8EAE33424 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715B08E09DB4B085EF8DD5FA58DF63A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6213E4F75DAD42202A0398C77B5602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9794AFF20306D60C0C881651DAF3E870 /* Foundation.framework in Frameworks */,
+				604FE407CEFB592DD2842FAA0D828A9E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		691A8CE7ACD2787369FE586D56042EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F9EF36C376752B1F42DD2074B6E6FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABC4F81812E33A3A5FB015EEF386615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				114E82F42E86C9B0B5992E1C01FDAB4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7F197DA18C1DE16D1B6C2D4FFB1944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A542211010B4A441026D1B2745D8875 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088DEF6221DFADAF29250785B617F504 /* YelpAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5645040D762429FFD525C65BF2986D2B /* NSDictionary+YLPUtils.m */,
+				646D781F7D42D9715E46E4549FA1615D /* YelpAPI.h */,
+				31998199212B224C18EB357DFA4786BD /* YLPBusiness.h */,
+				886FFC6E0DD564DB84791C3B57563A94 /* YLPBusiness.m */,
+				D07384FA638B5B1E2A52F19A36685739 /* YLPBusinessReviews.h */,
+				25E466F312778F0A0BF1E9A336A385B4 /* YLPBusinessReviews.m */,
+				CCB2D124E1035A155788BDA0F51B5236 /* YLPCategory.h */,
+				8DDDC6664F19309D9F946031C601DDA3 /* YLPCategory.m */,
+				D4FC74F9F1B56A208B27EA8E7F7E5100 /* YLPClient.h */,
+				DEEA165E76A98AD20F022FA1771D0145 /* YLPClient.m */,
+				396CDF41F166E2D8EC26AEB5A31AD07D /* YLPClient+Business.h */,
+				2BDC683559C9B9868B3B36E84C307B0C /* YLPClient+Business.m */,
+				8579FC544CF9732697977076673520EE /* YLPClient+PhoneSearch.h */,
+				1700D0D60A9A8B7521A81599FEA55A06 /* YLPClient+PhoneSearch.m */,
+				94806AC7D97FC7FEEB3DD04C25C184E9 /* YLPClient+Reviews.h */,
+				9BFF35148183ED0CD14B03C79FF9E83F /* YLPClient+Reviews.m */,
+				5B8E2CA7DC533460630AFB6930D57AAA /* YLPClient+Search.h */,
+				0EF9DF24E96F52A9CC193FF124A1776B /* YLPClient+Search.m */,
+				F357F299AE7E1918C2D6DC328EB432A7 /* YLPClientPrivate.h */,
+				364B1752FF6343FB4A000E7E7756E0F8 /* YLPCoordinate.h */,
+				FCDABD7B4C287AE7B19F4F1AA43D2A82 /* YLPCoordinate.m */,
+				5A8953D83B2240B7E44394ECE0A7963D /* YLPLocation.h */,
+				B34F2802517DA6435805F4CF2996C631 /* YLPLocation.m */,
+				B64904C0E1D5694C8199C7BBF01195AC /* YLPQuery.h */,
+				9C123BE8764DEFC50EC6D53E511C5884 /* YLPQuery.m */,
+				E58F5786EB482EABDD5E9BD2AE64E42A /* YLPQueryPrivate.h */,
+				D31E6C1BFF440435F5460DD6EEF40E69 /* YLPResponsePrivate.h */,
+				5AD64B147E8275E0CF0E3AEFC5222CED /* YLPReview.h */,
+				5C4CA499DC6814A69C986A674E9F1494 /* YLPReview.m */,
+				0661520E38D9EB758CBD6F591B34C281 /* YLPSearch.h */,
+				14B23762D7C97F71BF947C6872F3BF3F /* YLPSearch.m */,
+				A407BF12D59F25000289498D91CDE972 /* YLPSortType.h */,
+				E878C6102AC251C9C24705963F96F84E /* YLPUser.h */,
+				52DBCC6C382A2519F0EF52E90F9DEE37 /* YLPUser.m */,
+				3AF89994A58292B3D82B5EEB25C25B31 /* Support Files */,
+			);
+			path = YelpAPI;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3158CAC4B09A33C52C0F1007717C590B /* Pods-decision */ = {
+			isa = PBXGroup;
+			children = (
+				791184884050C195CA3510EF8F4C0233 /* Pods-decision.modulemap */,
+				EA1A82E05373E4115E4DAC3CAF6ED469 /* Pods-decision-acknowledgements.markdown */,
+				F5F4E36C20BFA2A82BA1EB1EF773672F /* Pods-decision-acknowledgements.plist */,
+				BC4C0311B47034409285422188A33C54 /* Pods-decision-dummy.m */,
+				D7E2CB70F08F5799BDAB295203BEA835 /* Pods-decision-frameworks.sh */,
+				333154D136B428D5B35E32702E05A01C /* Pods-decision-Info.plist */,
+				9B3111AA5F7640D42B88F7BC872BF2C1 /* Pods-decision-umbrella.h */,
+				F20800457568AD58B3E966E171D692AF /* Pods-decision.debug.xcconfig */,
+				47B584327A7EF43CE08EB3BBB45B74AB /* Pods-decision.release.xcconfig */,
+			);
+			name = "Pods-decision";
+			path = "Target Support Files/Pods-decision";
+			sourceTree = "<group>";
+		};
+		364DF8A18434F59B1C7A79166D704D90 /* SpinWheelControl */ = {
+			isa = PBXGroup;
+			children = (
+				0F65A4A692CB7ABA7A8B712A6653E401 /* Degrees+MathMethods.swift */,
+				ECF0539736561F62AA22C714F8EA1136 /* SpinWheelControl.h */,
+				3169E999611BA96D4359140A533EB82B /* SpinWheelControl.swift */,
+				7D113C6F53D667BA69F82C86105ADC9F /* SpinWheelControlDataSource.swift */,
+				183D1CD6C4548018A7F7D912A058C325 /* SpinWheelControlDelegate.swift */,
+				1CF4E6B20B1E0CE07EEFC4CE74AC0F03 /* SpinWheelWedge.swift */,
+				8ECDBEF9E7F4BC85E8338FA3BBC0040B /* SpinWheelWedgeLabel.swift */,
+				F3330F1F5E8E1732DF6955F1F6FC5F19 /* SpinWheelWedgeShape.swift */,
+				6F8A5F6879FA531D64A61D6350B250E8 /* Support Files */,
+			);
+			path = SpinWheelControl;
+			sourceTree = "<group>";
+		};
+		3AF89994A58292B3D82B5EEB25C25B31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F530B0E6FEA7A3052F6DE6053B9D8355 /* YelpAPI.modulemap */,
+				5F8D181B632728253CCB72EB112CB76B /* YelpAPI-dummy.m */,
+				58B59A01CB71771C2F43D0DDF07B6A27 /* YelpAPI-Info.plist */,
+				A7808C9F9EC11605219ECE9ADEEF2600 /* YelpAPI-prefix.pch */,
+				7BE356ED85B158F4D5C7E19E6F0F1552 /* YelpAPI-umbrella.h */,
+				60459AC837038BC9FB46A789E4EA7F78 /* YelpAPI.debug.xcconfig */,
+				50833FA51FF39E8C4088834958FA3B4F /* YelpAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YelpAPI";
+			sourceTree = "<group>";
+		};
+		42BF3A57DF6F89112EDA218D261C133E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3158CAC4B09A33C52C0F1007717C590B /* Pods-decision */,
+				CAD0B0CAF105B584090258D2AC5C2A8E /* Pods-decision-decisionUITests */,
+				DD4ADEF9B04CF5B802BAFB9FCB2A68FD /* Pods-decisionTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		680C2E8A62785728902BDFD362107971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				364DF8A18434F59B1C7A79166D704D90 /* SpinWheelControl */,
+				088DEF6221DFADAF29250785B617F504 /* YelpAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F8A5F6879FA531D64A61D6350B250E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D12A27E5C7BA9D67249129C0E9F85E6A /* SpinWheelControl.modulemap */,
+				CE73407AFA816134755E3F32A51F8303 /* SpinWheelControl-dummy.m */,
+				8BF1C77B9F849EB26963ACC262DC61E3 /* SpinWheelControl-Info.plist */,
+				466BFC30DBD91D79B6C7A79C51995C6A /* SpinWheelControl-prefix.pch */,
+				BA2FE3252368EAD90F9F79B102A36A61 /* SpinWheelControl-umbrella.h */,
+				00678D95E0B781C50FCCF168127024D1 /* SpinWheelControl.debug.xcconfig */,
+				C5F87A1AF3D0B94F0ADCC99662338FCE /* SpinWheelControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpinWheelControl";
+			sourceTree = "<group>";
+		};
+		9902C62D974FA5252ECA6379BC9F2B9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC42FEB8AE3B22A333BCDC9862DEB8C5 /* Pods_decision.framework */,
+				9B450B760A21A718EA5FB141B8DD1A82 /* Pods_decision_decisionUITests.framework */,
+				0E9FB6C2A9F6BC6D1D1FC56ABCD93070 /* Pods_decisionTests.framework */,
+				117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */,
+				897F21EA87D720778FD31BEE8CDEC361 /* YelpAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD0B0CAF105B584090258D2AC5C2A8E /* Pods-decision-decisionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				225E1F35C9F15EF077044347E3205724 /* Pods-decision-decisionUITests.modulemap */,
+				9D401E9A35F5EAC5A1B16DADD54FF053 /* Pods-decision-decisionUITests-acknowledgements.markdown */,
+				AFED8F5B39D9327332B01E0BE3C0D6EB /* Pods-decision-decisionUITests-acknowledgements.plist */,
+				6D1773C56A256600A03E83C100C03729 /* Pods-decision-decisionUITests-dummy.m */,
+				E1203261CED98B1D066DC0B36AB478B7 /* Pods-decision-decisionUITests-frameworks.sh */,
+				CCB83B6E871509E5F3CC00DC83EA2F44 /* Pods-decision-decisionUITests-Info.plist */,
+				BAC911EBB4DEAFE3E51C760B2E27B305 /* Pods-decision-decisionUITests-umbrella.h */,
+				1D8CA8E02E8F2170A27C4F8C799B29B5 /* Pods-decision-decisionUITests.debug.xcconfig */,
+				9F0CB2E5B1B73A1D13ECAA6E0519C404 /* Pods-decision-decisionUITests.release.xcconfig */,
+			);
+			name = "Pods-decision-decisionUITests";
+			path = "Target Support Files/Pods-decision-decisionUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				680C2E8A62785728902BDFD362107971 /* Pods */,
+				9902C62D974FA5252ECA6379BC9F2B9B /* Products */,
+				42BF3A57DF6F89112EDA218D261C133E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4ADEF9B04CF5B802BAFB9FCB2A68FD /* Pods-decisionTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B74915CF54CB11CF06EFF51D5CF48A3 /* Pods-decisionTests.modulemap */,
+				759435B0AAF2926290A2FEFA87B1A3C7 /* Pods-decisionTests-acknowledgements.markdown */,
+				8BF60029E081AC520830C731AF6FFBE0 /* Pods-decisionTests-acknowledgements.plist */,
+				B6F3ABBC924D7CB1C0BC63E70E740A3C /* Pods-decisionTests-dummy.m */,
+				344CAA5100D83385B23B45F462FCC2D0 /* Pods-decisionTests-Info.plist */,
+				6718D1DF916770CA450C3C0A2A6691F7 /* Pods-decisionTests-umbrella.h */,
+				8F2AC106379CDE8EE804EAA7263144F9 /* Pods-decisionTests.debug.xcconfig */,
+				E675BB4D73C8072BFE9C45E8A2069F0A /* Pods-decisionTests.release.xcconfig */,
+			);
+			name = "Pods-decisionTests";
+			path = "Target Support Files/Pods-decisionTests";
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06073B3C1EA59841F7666D6A4BDB0922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8195E762BB1FB1AB4AC42AACEA4AE367 /* Pods-decision-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D99BBE4FC2DAF4821F06DD12BCFB63F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E5B4B8C80E29EA241F8F0769EF5F6C /* YelpAPI-umbrella.h in Headers */,
+				0BB5E73F2D682E4D3DEB8C7A931943B4 /* YelpAPI.h in Headers */,
+				0164DBEC525F7BA1295D707970471C6D /* YLPBusiness.h in Headers */,
+				E147B83E9A2CAC76EA7942543BF2A0B3 /* YLPBusinessReviews.h in Headers */,
+				6D734A52BBB753D49CFBFA5706235523 /* YLPCategory.h in Headers */,
+				AB95490DDD0A3B3B2CAF4C5F10D25890 /* YLPClient+Business.h in Headers */,
+				011046E59401A0D17E997D493021B4D3 /* YLPClient+PhoneSearch.h in Headers */,
+				E4CFEBAB5989F3D052AC58AFF7A98C72 /* YLPClient+Reviews.h in Headers */,
+				C03255CD6CF04B2E9B660D4433814105 /* YLPClient+Search.h in Headers */,
+				238BB650ECAA4AB424600CA72A627444 /* YLPClient.h in Headers */,
+				8C10FAFA430E90F7C1199CABD45D0AFD /* YLPClientPrivate.h in Headers */,
+				855002CCE2606EDA5F9332CFBD5AC600 /* YLPCoordinate.h in Headers */,
+				1770F178C506D2BBDAD1DABC329DFBA8 /* YLPLocation.h in Headers */,
+				284774A6287BE95F2B0F10EA9E2B0B5F /* YLPQuery.h in Headers */,
+				31CDDC5AC349BD9E522D5EAB0DF3ADCF /* YLPQueryPrivate.h in Headers */,
+				6006E9EC8EE7A01BFB083D9695685B98 /* YLPResponsePrivate.h in Headers */,
+				6B2665F14797675A8FF0D57D14761BD6 /* YLPReview.h in Headers */,
+				E0100ECFD56F96402F9AE10D6FD04005 /* YLPSearch.h in Headers */,
+				25109A04A427ED02947E080170DE147B /* YLPSortType.h in Headers */,
+				D5CC8A7AF259C995ACB5B7511A4F8035 /* YLPUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DABD849DED4227256E5179A7CB12827 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE740D53A3BE2035670A5B49B2C77552 /* Pods-decisionTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F425EF80A8ECA70768B5CA6ECEF3EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCDF223BF0B887C816145B40D504383 /* Pods-decision-decisionUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		968C4233DEB50147F4BA2890FF612707 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8518BFEE35FC30A0B290F20E2072410E /* SpinWheelControl-umbrella.h in Headers */,
+				A362170D62F5CF9F5E55D062C38A1886 /* SpinWheelControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		053EBA9D3B0D88FBEAC44573A8887CF2 /* YelpAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE38572072FE06FDF2D845E132368DE /* Build configuration list for PBXNativeTarget "YelpAPI" */;
+			buildPhases = (
+				2D99BBE4FC2DAF4821F06DD12BCFB63F /* Headers */,
+				688FC5B8E43C577E9D025262E984E10B /* Sources */,
+				691A8CE7ACD2787369FE586D56042EEB /* Frameworks */,
+				62C0B47E31EF59ED2A123181CE125205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpAPI;
+			productName = YelpAPI;
+			productReference = 897F21EA87D720778FD31BEE8CDEC361 /* YelpAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F82159F75FE48B2FEBC99D3398C4C02 /* Build configuration list for PBXNativeTarget "SpinWheelControl" */;
+			buildPhases = (
+				968C4233DEB50147F4BA2890FF612707 /* Headers */,
+				33ED8114C5B6FDBAA7B66C52342C6ABC /* Sources */,
+				4D6213E4F75DAD42202A0398C77B5602 /* Frameworks */,
+				12A59C74D8484FCB330EA2963091F1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpinWheelControl;
+			productName = SpinWheelControl;
+			productReference = 117F554EFB0EADECCD95E3DE15A0A0E0 /* SpinWheelControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		77782551842DDDD941E0B4D93409921E /* Pods-decisionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F305CFE9F4FE829AFF3AFCFA3989749 /* Build configuration list for PBXNativeTarget "Pods-decisionTests" */;
+			buildPhases = (
+				4DABD849DED4227256E5179A7CB12827 /* Headers */,
+				86D6721ED1E9C203945D8E1F2C08AF50 /* Sources */,
+				4C95BD8E29F6117F3B36B2A8EAE33424 /* Frameworks */,
+				8E506B6410B1B6C4D751984D6EA6E386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD60F92CE769F154F7D259858FB91FEF /* PBXTargetDependency */,
+			);
+			name = "Pods-decisionTests";
+			productName = "Pods-decisionTests";
+			productReference = 0E9FB6C2A9F6BC6D1D1FC56ABCD93070 /* Pods_decisionTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFC4EC67B03B3995AD1C6E1D9EB8DA17 /* Pods-decision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38BC2EF9FB773B64CA780AABE13EBFD2 /* Build configuration list for PBXNativeTarget "Pods-decision" */;
+			buildPhases = (
+				06073B3C1EA59841F7666D6A4BDB0922 /* Headers */,
+				C6E5BCE313FA9177871C50559F757413 /* Sources */,
+				CABC4F81812E33A3A5FB015EEF386615 /* Frameworks */,
+				05F237586D871A1EA11051BD90066A0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42106F37D335BC0605167E414DD30F83 /* PBXTargetDependency */,
+				3428CC216F117DB593DAB50D3C58F5BE /* PBXTargetDependency */,
+			);
+			name = "Pods-decision";
+			productName = "Pods-decision";
+			productReference = AC42FEB8AE3B22A333BCDC9862DEB8C5 /* Pods_decision.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA9AA404E13299123B771F55E528B184 /* Pods-decision-decisionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E11C0B6BA45BD154E60F799299ED4AC /* Build configuration list for PBXNativeTarget "Pods-decision-decisionUITests" */;
+			buildPhases = (
+				67F425EF80A8ECA70768B5CA6ECEF3EA /* Headers */,
+				1DB72C2400A75F28B0F6AD30BD778B25 /* Sources */,
+				FE7F197DA18C1DE16D1B6C2D4FFB1944 /* Frameworks */,
+				3F509EB8C7E8C460ADA1CB8B78B8AC21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6065741796B6B1273EC4F02247C1FAC8 /* PBXTargetDependency */,
+				02A5F94AE0332BBBEB0C617CAF36D9E2 /* PBXTargetDependency */,
+			);
+			name = "Pods-decision-decisionUITests";
+			productName = "Pods-decision-decisionUITests";
+			productReference = 9B450B760A21A718EA5FB141B8DD1A82 /* Pods_decision_decisionUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					2CD84FAAB6802581D257FEA9944CF14B = {
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9902C62D974FA5252ECA6379BC9F2B9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFC4EC67B03B3995AD1C6E1D9EB8DA17 /* Pods-decision */,
+				DA9AA404E13299123B771F55E528B184 /* Pods-decision-decisionUITests */,
+				77782551842DDDD941E0B4D93409921E /* Pods-decisionTests */,
+				2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */,
+				053EBA9D3B0D88FBEAC44573A8887CF2 /* YelpAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05F237586D871A1EA11051BD90066A0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A59C74D8484FCB330EA2963091F1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F509EB8C7E8C460ADA1CB8B78B8AC21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62C0B47E31EF59ED2A123181CE125205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E506B6410B1B6C4D751984D6EA6E386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB72C2400A75F28B0F6AD30BD778B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9977DF2F92AA34695BE47186309EE9 /* Pods-decision-decisionUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33ED8114C5B6FDBAA7B66C52342C6ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B244D06AF5DF7088463BA62DE2F8EDF /* Degrees+MathMethods.swift in Sources */,
+				2EE909BCCB6BDD9DBB50F008815E27E4 /* SpinWheelControl-dummy.m in Sources */,
+				A0E7171E10042FE2792166BE717F027B /* SpinWheelControl.swift in Sources */,
+				01F83BDA37A1B54686FBAE19030D9D0E /* SpinWheelControlDataSource.swift in Sources */,
+				D1D2E9A21002BA3C2F8982F0A067D9FC /* SpinWheelControlDelegate.swift in Sources */,
+				8D982335D1855A5843871C15BF8EA153 /* SpinWheelWedge.swift in Sources */,
+				EB3263F5FBA5D99014FD653518681556 /* SpinWheelWedgeLabel.swift in Sources */,
+				2012E9D8CEA75686ACA58716CF99B0BB /* SpinWheelWedgeShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		688FC5B8E43C577E9D025262E984E10B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB6F75A131A62C399B64E281DDC7D3C /* NSDictionary+YLPUtils.m in Sources */,
+				278AB186FE27B90FE6977850E8B4050A /* YelpAPI-dummy.m in Sources */,
+				27AAF49D91F8C1B53F71F8E9FC9C470F /* YLPBusiness.m in Sources */,
+				0FF84649520EE2DD3DA8AB820B2ECE5D /* YLPBusinessReviews.m in Sources */,
+				A440422ADA26F472C87DE85354573FAA /* YLPCategory.m in Sources */,
+				4B219B88F7F89784710381A573C631B5 /* YLPClient+Business.m in Sources */,
+				F617A147951A581C8137902A8BF5AD7B /* YLPClient+PhoneSearch.m in Sources */,
+				976BC9AA59F6B19F133B826A99099CC6 /* YLPClient+Reviews.m in Sources */,
+				19206A56BC6A81FA0FCD983A8FBEEFFE /* YLPClient+Search.m in Sources */,
+				7CC814ED630BDF004DE275FDF811D316 /* YLPClient.m in Sources */,
+				0C1BE65C7C0E16C22A1DAB790DE843F7 /* YLPCoordinate.m in Sources */,
+				B09C5E549954CB3C77DBEF87DBA590BD /* YLPLocation.m in Sources */,
+				E9508A2CD4AA1FD02C7555347DAA1980 /* YLPQuery.m in Sources */,
+				C406DAB3BECE80FD31E08FE24B3EB5D4 /* YLPReview.m in Sources */,
+				33C8B7A8BB42BAE8285690561E08BAD7 /* YLPSearch.m in Sources */,
+				FC7DFC3A0C6A9ED3AC8B6D8B991BDD42 /* YLPUser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86D6721ED1E9C203945D8E1F2C08AF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A46359C907CED8B5298139124C6702A /* Pods-decisionTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6E5BCE313FA9177871C50559F757413 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9E344AF0A8BFD8ECF7A9997FF5499BB /* Pods-decision-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02A5F94AE0332BBBEB0C617CAF36D9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YelpAPI;
+			target = 053EBA9D3B0D88FBEAC44573A8887CF2 /* YelpAPI */;
+			targetProxy = 599FA7EF44D7088A8BFB882A1CDC455C /* PBXContainerItemProxy */;
+		};
+		3428CC216F117DB593DAB50D3C58F5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YelpAPI;
+			target = 053EBA9D3B0D88FBEAC44573A8887CF2 /* YelpAPI */;
+			targetProxy = 7E8C21022438AFE3028A5E42B8C6CC7F /* PBXContainerItemProxy */;
+		};
+		42106F37D335BC0605167E414DD30F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinWheelControl;
+			target = 2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */;
+			targetProxy = 7CCA588F2AB760F2658EF242B47A3C5C /* PBXContainerItemProxy */;
+		};
+		6065741796B6B1273EC4F02247C1FAC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpinWheelControl;
+			target = 2CD84FAAB6802581D257FEA9944CF14B /* SpinWheelControl */;
+			targetProxy = 89EEBCDF8293DF86BDAB8A379C469769 /* PBXContainerItemProxy */;
+		};
+		DD60F92CE769F154F7D259858FB91FEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-decision";
+			target = CFC4EC67B03B3995AD1C6E1D9EB8DA17 /* Pods-decision */;
+			targetProxy = 72A272C3E8130BBF5EBD3518FB97079F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1413A7EE89B33E4A34A2284F4637892F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8CA8E02E8F2170A27C4F8C799B29B5 /* Pods-decision-decisionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decision-decisionUITests/Pods-decision-decisionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decision-decisionUITests/Pods-decision-decisionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18DEF280691900E34EB4442C5EA685B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E675BB4D73C8072BFE9C45E8A2069F0A /* Pods-decisionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decisionTests/Pods-decisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decisionTests/Pods-decisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34A900B758B7A2A4E79E52F16573400D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50833FA51FF39E8C4088834958FA3B4F /* YelpAPI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/YelpAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				PRODUCT_MODULE_NAME = YelpAPI;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F3A8088954A1E2A661324210755FCCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0CB2E5B1B73A1D13ECAA6E0519C404 /* Pods-decision-decisionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decision-decisionUITests/Pods-decision-decisionUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decision-decisionUITests/Pods-decision-decisionUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40A8D4033BD72A1637F36BA9941A5C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00678D95E0B781C50FCCF168127024D1 /* SpinWheelControl.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinWheelControl/SpinWheelControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl.modulemap";
+				PRODUCT_MODULE_NAME = SpinWheelControl;
+				PRODUCT_NAME = SpinWheelControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E64D66C2423D86BA1E0DC4567D44E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60459AC837038BC9FB46A789E4EA7F78 /* YelpAPI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YelpAPI/YelpAPI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YelpAPI/YelpAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YelpAPI/YelpAPI.modulemap";
+				PRODUCT_MODULE_NAME = YelpAPI;
+				PRODUCT_NAME = YelpAPI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60B836D6A6E9FD0C4D91B83BD0A1CA1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B584327A7EF43CE08EB3BBB45B74AB /* Pods-decision.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decision/Pods-decision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decision/Pods-decision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F2B11D421787A1147C6823CFA0A96E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2AC106379CDE8EE804EAA7263144F9 /* Pods-decisionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decisionTests/Pods-decisionTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decisionTests/Pods-decisionTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C47349695995D075CD178364107EEFEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F20800457568AD58B3E966E171D692AF /* Pods-decision.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-decision/Pods-decision-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-decision/Pods-decision.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA563A8100360E5DBE4E021B75FE505E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F87A1AF3D0B94F0ADCC99662338FCE /* SpinWheelControl.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpinWheelControl/SpinWheelControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpinWheelControl/SpinWheelControl.modulemap";
+				PRODUCT_MODULE_NAME = SpinWheelControl;
+				PRODUCT_NAME = SpinWheelControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F305CFE9F4FE829AFF3AFCFA3989749 /* Build configuration list for PBXNativeTarget "Pods-decisionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2B11D421787A1147C6823CFA0A96E9 /* Debug */,
+				18DEF280691900E34EB4442C5EA685B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38BC2EF9FB773B64CA780AABE13EBFD2 /* Build configuration list for PBXNativeTarget "Pods-decision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C47349695995D075CD178364107EEFEA /* Debug */,
+				60B836D6A6E9FD0C4D91B83BD0A1CA1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E11C0B6BA45BD154E60F799299ED4AC /* Build configuration list for PBXNativeTarget "Pods-decision-decisionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1413A7EE89B33E4A34A2284F4637892F /* Debug */,
+				3F3A8088954A1E2A661324210755FCCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F82159F75FE48B2FEBC99D3398C4C02 /* Build configuration list for PBXNativeTarget "SpinWheelControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40A8D4033BD72A1637F36BA9941A5C1A /* Debug */,
+				DA563A8100360E5DBE4E021B75FE505E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE38572072FE06FDF2D845E132368DE /* Build configuration list for PBXNativeTarget "YelpAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E64D66C2423D86BA1E0DC4567D44E82 /* Debug */,
+				34A900B758B7A2A4E79E52F16573400D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

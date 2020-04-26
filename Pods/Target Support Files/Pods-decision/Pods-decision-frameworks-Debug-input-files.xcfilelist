@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-decision/Pods-decision-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SpinWheelControl/SpinWheelControl.framework
+${BUILT_PRODUCTS_DIR}/YelpAPI/YelpAPI.framework
