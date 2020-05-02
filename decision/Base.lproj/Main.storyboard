@@ -238,6 +238,7 @@
         <image name="dimsum.png" width="800" height="770"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="bmE-we-HMp"/>
         <segue reference="G99-lz-k99"/>
     </inferredMetricsTieBreakers>
 </document>
